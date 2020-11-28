@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link href="estilo.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="img/favicon_logoceunsp.png">
+
+</head>
+<body>
+    <div class="menu">
+        <a href="produtos.html" >⚙️⚙️Cadastro de Produtos</a>
+        <a href="index.html" >👩‍💼🙍‍♂️Cadastro de Clientes</a>
+    </div>
+
+
+    <div class="form">
+        <form name="formCliente">
+            <fieldset>
+                <legend>CADASTRO DE CLIENTES</legend>
+                <div class="form-group">
+
+                    <label>Código</label>
+                    <input class="input-control2" type="number" size="5" id="codigo" />
+
+                    <label class="right-inline">Nome/Razão Social:</label>
+                    <input class="input-control" type="text" size="35" placeholder="Digite seu Nome ou Razão Social" id="nome" />
+
+                    <label class="right-inline">RG / IE:</label>
+                    <input class="input-control" type="text" size="5" placeholder="EX.: 00.000.000-00" id="rg" />
+                </div>
+                <div class="form-group">
+                    <label>Endereço:</label>
+                    <input class="input-control" type="text" size="40" placeholder="Digite o Endereço" id="endereco" />
+                  
+                    <label class="right-inline">Bairro</label>
+                    <input class="input-control" type="text" size="20" placeholder="Digite o Bairro" id="bairro" />
+
+                    <label class="right-inline">Cidade</label>
+                    <input class="input-control" type="text" size="30" placeholder="Ex.: São Paulo" id="cidade" />
+                </div>
+
+                <div class="form-group">
+                    <label>Cep:</label>
+                    <input class="input-control2" type="text" size="25" placeholder="Ex.:00000-000" id="cep" />
+                  
+                    <label class="right-inline">UF:</label>
+                    <input class="input-control2" type="text" size="5" placeholder="Ex.: SP" id="uf" />
+
+                    <label class="right-inline">Celular:</label>
+                    <input class="input-control" type="text" size="30" placeholder="(00) 00000-0000" id="celular" />
+
+                    <label class="right-inline">CPF/CNPJ:</label>
+                    <input class="input-control" type="text" size="30" placeholder="CPF.: 000.000.000-00"  id="cpf" />
+                </div>
+
+                <div class="form-group">
+                    <label>Nome Fantasia:</label>
+                    <input class="input-control" type="text" size="20"placeholder="Digite Nome Fantasia" id="nfantasia" />
+                  
+                    <label class="right-inline">Contato:</label>
+                    <input class="input-control" type="text" size="25" placeholder="Digite um contato" id="contato" />
+
+                    <label class="right-inline">E-mail Pessoal:</label>
+                    <input class="input-control" type="email" size="30" placeholder="EX.: name@name.com.br" id="emailpessoal" />
+
+                    <label class="right-inline">Nascimento:</label>
+                    <input class="input-control2" type="date" size="5px" id="nascimento" />
+                </div>
+
+                <div class="form-group">
+                    <label>Observações</label>
+                    <textarea class="input-control3" placeholder="Deixe sua Mensagem / Observações" id="observacoes"></textarea>
+                </div>
+
+                <div class="botao">
+                    <button id="salvar">💾 Salvar</button>
+                    <button id="cancelar">❌ Cancelar</button>
+                </div>
+            </fieldset>    
+        </form>
+    </div>
+    <!--RODAPÉ-->
+    <div id="rodape">
+        <div class="texto4">               
+      <br>COPYRIGHT © 2020 FACULDADE CEUNSP -  Todos os direitos reservados | 
+             Desenvolvido por Antonio Fernando "Projeto Interdisciplinar" </br>  
+        </div>
+     </div>  
+</body>
+</html>

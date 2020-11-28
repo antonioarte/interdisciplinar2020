@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link href="produtos.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="img/favicon_logoceunsp.png">
+
+</head>
+<body>
+    <div class="menu">
+        <a href="produtos.html" >⚙️⚙️Cadastro de Produtos</a>
+        <a href="index.html" >👩‍💼🙍‍♂️Cadastro de Clientes</a>
+    </div>
+
+
+    <div class="form">
+        <form name="formCliente">
+            <fieldset>
+                <legend>CADASTRO DE PRODUTOS</legend>
+                
+                <div class="form-group">
+                    <label>Código</label>
+                    <input class="input-control2" type="number" size="5" id="codigo" />
+                </div>
+                
+                <div class="form-group">
+                    <label>Nome:</label>
+                    <input class="input-control" type="text" size="50" placeholder="Digite o nome do produto" id="nome" />
+
+                    <label class="right-compra">Data Compra:</label>
+                    <input class="input-control" type="date" size="5"  id="datacompra" />
+                </div>
+
+                  <div class="form-group">
+                    <label>Preço Custo:</label>
+                    <input class="input-control" type="text" size="25" placeholder="Digite o preço de custo" id="pcusto" />
+
+                    <label class="right-compra">Lucro %:</label>
+                    <input class="input-control" type="text" size="25" placeholder="Digite o percentual"  id="lucro" />
+
+                      <label class="right-compra">Preço Vendas:</label>
+                    <input class="input-control" type="text" size="25" placeholder="Digite o preço de vendas"  id="pvendas" />
+                </div>
+
+                <div class="form-group">
+                    <label>I C M S:</label>
+                    <input class="input-control" type="text" size="25" placeholder="Digite o ICMS" id="icms" />
+
+                    <label class="right-compra">NCN - NFE:</label>
+                    <input class="input-control" type="text" size="25" placeholder="Digite o NCN - NFE"  id="ncm" />
+
+                    <label class="und">Unid.Medida</label>
+                    <select class="input-control" name="">
+                          <option value="un">U N</option>
+                          <option value="cx">C X </option>
+                          <option value="pt">PTE </option>
+                    </select>
+                </div>
+
+                <div class="form-group2">
+                    <label class="categoria">MARCA:</label>
+                <select class="input-control" name="marca">
+                      <option value="LeNovo">LENOVO</option>
+                      <option value="LG">LG</option>
+                      <option value="ACER">ACER</option>
+                </select>
+                
+                    <label class="categoria">CATEGORIA</label>
+                <select class="input-control" name="categoria">
+                      <option value="eletronicos">Eletrônicos</option>
+                      <option value="brinquedos">Brinquedos</option>
+                      <option value="roupas">Roupas</option>
+                </select>
+
+                    <label class="categoria">ORIGEM</label>
+                <select class="input-control" name="origem">
+                      <option value="nacional">Nacional</option>
+                      <option value="importados">Importados</option>
+                </select>
+
+                </div>
+                
+                <div class="botao">
+                    <button id="salvar">💾 Salvar</button>
+                    <button id="cancelar">❌ Cancelar</button>
+                </div>
+                </div>
+            </fieldset>    
+        </form>
+    </div>
+    <footer> 
+        
+        <!--RODAPÉ-->
+        <div id="rodape">
+           <div class="texto4">               
+         <br>COPYRIGHT © 2020 FACULDADE CEUNSP -  Todos os direitos reservados | 
+                Desenvolvido por Antonio Fernando "Projeto Interdisciplinar" </br>  
+           </div>
+        </div>
+    
+</body>
+</html>
